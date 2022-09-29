@@ -23,7 +23,7 @@ def shoot(somenumber):
 
 if __name__ == '__main__':
     fly_left()
-    print(shoot(200))
+    print('Current hp is '+ str(shoot(200)))
     fly_forward()
     fly_right()
     game_over('Joe Biden')
